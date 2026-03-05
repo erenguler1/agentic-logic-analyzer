@@ -15,4 +15,4 @@ def analyze_sr_latch(s: int, r: int, current_q: int) -> str:
         return "Invalid inputs. S and R must be 0 or 1."
 
 # Agent'ın kullanabileceği araçlar listesi
-TOOLS = [analyze_sr_latch]
+TOOLS = [analyze_sr_latch]  
